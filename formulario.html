@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesFormulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="formulario">
+        <h1>Formulario de pedido</h1>
+        <form>
+
+            <label>Nombre</label><br>
+            <input type="text" id="nombre" ><br>
+
+            <label>Telefono</label><br>
+            <input type="text" id="telefono" ><br>
+            
+            <label>Email</label><br>
+            <input type="email" id="email"><br>
+
+            <label>Descripcion del pastel</label><br>
+            <textarea ></textarea>
+            <br><br>
+
+
+            <label class="sabor">Elige el sabor o los sabores de tu pastel:</label>
+            <br><br>
+            <input type="checkbox" id="chocolate">Chocolate<br>
+            <input type="checkbox" id="chocolate">Fresa<br>
+            <input type="checkbox" id="chocolate">Vainilla<br>
+            <input type="checkbox" id="chocolate">Red Velvet<br>
+            <input type="checkbox" id="chocolate">Zarzamora con Queso<br>
+            <input type="checkbox" id="chocolate">Capucchino<br>
+
+            <br>
+            <label class="adornos">Elige tu o tus adornos:</label>
+            <br><br>
+            <label>Velas tradicionales</label><br>
+            <input type="number" id="velasTradicionales" placeholder="Cantidad"><br>
+            <label>Velas de numeros</label><br>
+            <input type="number" id="velasDeNumeros" placeholder="Cantidad"><br>
+            <label>Velas magicas</label><br>
+            <input type="number" id="velasMagicas" placeholder="Cantidad"><br>
+            <label>Topper feliz cumple</label><br>
+            <input type="number" id="felizCumple" placeholder="Cantidad"><br>
+            <label>Topper Globo</label><br>
+            <input type="number" id="topperGlobo" placeholder="Cantidad"><br>
+            <label>Topper Happy Birthday</label><br>
+            <input type="number" id="topperHappyBirthday" placeholder="Cantidad"><br>
+            
+            <br>
+            <input class="boton" type="submit" value="Enviar"> <br><br>
+        </form>
+    </div>
+</body>
+</html>
