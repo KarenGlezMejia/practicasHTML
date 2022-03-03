@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+h1{
+    color:palevioletred;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.banner{
+    border-bottom: palevioletred 5px solid;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.banner img{
+    height: 100%;
+}
+
+.menu{
+    margin-right: 20px;
+    margin-top: 210px;
+    color: palevioletred;
+    word-spacing: 200px;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.tablaSabores,
+.tablaAdornos{
+    margin-top: 20px;
+    margin-left: 510px;
+    margin-bottom: 20px;
+    border: 1px solid palevioletred;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.tablaPedidos{
+    margin-bottom: 20px;
+    border: 1px solid palevioletred;
+    margin-left: 2px;
+}
+
+.tablaSabores th,td,tr,
+.tablaAdornos th,td,tr,
+.tablaPedidos th,td,tr{
+    border: 1px solid palevioletred;
+    text-align: center;
+}
