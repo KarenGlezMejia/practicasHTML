@@ -1,0 +1,32 @@
+body{
+    background-color: palevioletred;
+}
+
+.formulario{
+    width: 310px;
+    border: 1px solid palevioletred;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 450px;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.formulario h1{
+    font-size: 40px;
+}
+
+.sabor,
+.adornos{
+    font-size: 25px;
+    font-weight:bold;
+}
+
+.boton {
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+
